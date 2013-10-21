@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dotfile Boilerplate
 
 Your dotfiles: 
@@ -70,3 +71,7 @@ Checkout the [documentation](https://github.com/thcipriani/dotfile-boilerplate/b
 ## Contributing
 
 Fork me and send me a pull request =)
+=======
+dotfiles
+========
+>>>>>>> 2013110680d95490743e647185783470dd2d135d
