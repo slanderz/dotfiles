@@ -1,0 +1,41 @@
+ " PERSONAL SETUP "
+ """"""""""""""""""
+
+ " main settings
+ syntax on
+ let mapleader=','
+ colorscheme desert
+
+ " REMAP ARROW KEYS
+ noremap <up> <nop>
+ noremap <down> <nop>
+ noremap <left> <nop>
+ noremap <right> <nop>
+
+ vnoremap <up> <nop>
+ vnoremap <down> <nop>
+ vnoremap <left> <nop>
+ vnoremap <right> <nop>
+
+ " tabbing, spacing, and nesting
+ set expandtab       " convert tabs to spaces
+ set tabstop=4       " 4 spaces to a tab
+ set shiftwidth=4    " 4 spaces for indentation
+ set nowrap          " don't wrap lines
+ set smartindent     " auto indent where possible
+
+ " code folding
+ set nofoldenable        " prevent folding by default
+ set foldmethod=marker   " fold the code at {{{ marker
+
+ " hidden characters
+ set list
+ set listchars=tab:▸\ ,eol:¬
+
+ " line numbers
+ set number          " show line numbers
+ set relativenumber  " current line number is 0
+
+ " misc
+ set hlsearch        " highlight search results
+ set laststatus=2    " status bar
